@@ -17,7 +17,11 @@ public class RideEngine : MonoBehaviour
     private EngineState state = EngineState.Idle;
     [Header("Settings")]
     [SerializeField] float hoverHeight;
-    [SerializeField] float hoverForce;
+    [SerializeField] float hoverResponseDistence = 0.1f;
+    [SerializeField] float hoverResponceForce = 5f;
+    [SerializeField] float hoverDiminishDistance = 0.2f;
+    [SerializeField][Range(0, 1)] float idleHoverForceRate = 0.3f;
+    [SerializeField][Range(0, 1)] float hoverDragRate = 0.3f;
     [SerializeField] float maxSpeed;
     [Header("Acceleration")]
     [SerializeField] float maxAcceleration;
@@ -30,11 +34,14 @@ public class RideEngine : MonoBehaviour
     private float _maxSpeedForwardEnergy = 0;
     public Action<float, float> OnSteerChanged;
 
+    private int _groundLayerMask;
+
     void Awake()
     {
-        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezePositionY;
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
         _inputVector = Vector2.zero;
         _maxSpeedForwardEnergy = maxSpeed * maxSpeed * rb.mass / 2;
+        _groundLayerMask = LayerMask.GetMask("Default");
     }
 
     void FixedUpdate()
@@ -42,7 +49,7 @@ public class RideEngine : MonoBehaviour
 
         if (state == EngineState.Moving) Move();
         else if (state == EngineState.Idle) Idle();
-
+        ApplyHover();
     }
 
     void Move()
@@ -57,7 +64,8 @@ public class RideEngine : MonoBehaviour
         Vector3 cancelVector = rideTransform.right;
         Vector3 velocityForwardComponent = Vector3.Project(vel, forward);
         float currentForwardEnergy = Mathf.Pow(velocityForwardComponent.magnitude, 2) * rb.mass / 2;
-        float realForwardForce = Mathf.Clamp(Mathf.Lerp(-maxDeceleration, maxAcceleration, _inputVector.y), 0, _maxSpeedForwardEnergy - currentForwardEnergy);
+        float accBasedOnInput = _inputVector.y < 0 ? -Mathf.Lerp(0, maxDeceleration, -_inputVector.y) : Mathf.Lerp(0, maxAcceleration, _inputVector.y);
+        float realForwardForce = Mathf.Clamp(accBasedOnInput, -maxDeceleration, _maxSpeedForwardEnergy - currentForwardEnergy);
         debugForwardForce = forward * realForwardForce;
         debugCancelForce = cancelVector * cancellingForce;
         debugDragForce = GetDragForce();
@@ -75,11 +83,32 @@ public class RideEngine : MonoBehaviour
     }
     void ApplyHover()
     {
+        float verticalDrag = 0;
+        Vector3 hoverForce = Vector3.zero;
         RaycastHit groundRay = new RaycastHit();
-        if (Physics.Raycast(transform.position, Vector3.down, out groundRay, hoverHeight))
+        if (Physics.Raycast(transform.position, Vector3.down, out groundRay, hoverHeight * 2, _groundLayerMask))
         {
-
+            float verticalSpeed = rb.velocity.y;
+            if (verticalSpeed > .04f)
+                verticalDrag = -verticalSpeed * Mathf.Abs(verticalSpeed) * rb.mass / 2 * hoverDragRate;
+            hoverForce = CalculateHoverForce(groundRay.distance);
         }
+        Vector3 drag = verticalDrag * Vector3.up;
+        Vector3 defaultHoverForce = -Physics.gravity.y * rb.mass * idleHoverForceRate * Vector3.up;
+        debugHoverForce = hoverForce + defaultHoverForce;
+        rb.AddForce(hoverForce + defaultHoverForce + drag, ForceMode.Force);
+    }
+
+    private Vector3 CalculateHoverForce(float floorDistance)
+    {
+        Debug.Log("Floor Distance: " + floorDistance);
+        float g = -Physics.gravity.y;
+        float hoverResponseAmount = Mathf.Pow(Mathf.Clamp01((hoverHeight - floorDistance) / hoverResponseDistence), 2);
+        float hoverDiminishAmount = Mathf.Pow(Mathf.Clamp01(1 - (floorDistance - hoverHeight) / hoverDiminishDistance), 2);
+        float hoverResponse = hoverResponseAmount * hoverResponceForce;
+        float hoverDiminish = hoverDiminishAmount * g * (1 - idleHoverForceRate);
+
+        return Vector3.up * (hoverResponse + hoverDiminish) * rb.mass;
     }
 
     public Vector3 GetDragForce()
@@ -104,6 +133,7 @@ public class RideEngine : MonoBehaviour
     private Vector3 debugForwardForce;
     private Vector3 debugCancelForce;
     private Vector3 debugDragForce;
+    private Vector3 debugHoverForce;
 
     public void OnDrawGizmos()
     {
@@ -117,6 +147,8 @@ public class RideEngine : MonoBehaviour
             Gizmos.DrawLine(transform.position, transform.position + debugCancelForce);
             Gizmos.color = Color.blue;
             Gizmos.DrawLine(transform.position, transform.position + debugDragForce);
+            Gizmos.color = Color.magenta;
+            Gizmos.DrawLine(transform.position, transform.position + debugHoverForce / rb.mass);
         }
     }
 
