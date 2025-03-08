@@ -1109,6 +1109,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: maxSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
       propertyPath: hoverForce
       value: 10
       objectReference: {fileID: 0}
@@ -1119,6 +1123,14 @@ PrefabInstance:
     - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
       propertyPath: hoverResponceForce
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.hoverHeight
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.hoverDragRate
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 5070614978333804381, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
       propertyPath: m_Layer

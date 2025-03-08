@@ -16,12 +16,7 @@ public class RideEngine : MonoBehaviour
     [SerializeField] Transform rideTransform;
     private EngineState state = EngineState.Idle;
     [Header("Settings")]
-    [SerializeField] float hoverHeight;
-    [SerializeField] float hoverResponseDistence = 0.1f;
-    [SerializeField] float hoverResponceForce = 5f;
-    [SerializeField] float hoverDiminishDistance = 0.2f;
-    [SerializeField][Range(0, 1)] float idleHoverForceRate = 0.3f;
-    [SerializeField][Range(0, 1)] float hoverDragRate = 0.3f;
+    [SerializeField] RideEngineHoverModule hoverModule;
     [SerializeField] float maxSpeed;
     [Header("Acceleration")]
     [SerializeField] float maxAcceleration;
@@ -42,14 +37,14 @@ public class RideEngine : MonoBehaviour
         _inputVector = Vector2.zero;
         _maxSpeedForwardEnergy = maxSpeed * maxSpeed * rb.mass / 2;
         _groundLayerMask = LayerMask.GetMask("Default");
+        hoverModule.Init(rb, _groundLayerMask);
     }
 
     void FixedUpdate()
     {
-
         if (state == EngineState.Moving) Move();
         else if (state == EngineState.Idle) Idle();
-        ApplyHover();
+        hoverModule.ApplyHover();
     }
 
     void Move()
@@ -80,35 +75,6 @@ public class RideEngine : MonoBehaviour
     void Idle()
     {
         rb.AddForce(GetDragForce(), ForceMode.Force);
-    }
-    void ApplyHover()
-    {
-        float verticalDrag = 0;
-        Vector3 hoverForce = Vector3.zero;
-        RaycastHit groundRay = new RaycastHit();
-        if (Physics.Raycast(transform.position, Vector3.down, out groundRay, hoverHeight * 2, _groundLayerMask))
-        {
-            float verticalSpeed = rb.velocity.y;
-            if (verticalSpeed > .04f)
-                verticalDrag = -verticalSpeed * Mathf.Abs(verticalSpeed) * rb.mass / 2 * hoverDragRate;
-            hoverForce = CalculateHoverForce(groundRay.distance);
-        }
-        Vector3 drag = verticalDrag * Vector3.up;
-        Vector3 defaultHoverForce = -Physics.gravity.y * rb.mass * idleHoverForceRate * Vector3.up;
-        debugHoverForce = hoverForce + defaultHoverForce;
-        rb.AddForce(hoverForce + defaultHoverForce + drag, ForceMode.Force);
-    }
-
-    private Vector3 CalculateHoverForce(float floorDistance)
-    {
-        Debug.Log("Floor Distance: " + floorDistance);
-        float g = -Physics.gravity.y;
-        float hoverResponseAmount = Mathf.Pow(Mathf.Clamp01((hoverHeight - floorDistance) / hoverResponseDistence), 2);
-        float hoverDiminishAmount = Mathf.Pow(Mathf.Clamp01(1 - (floorDistance - hoverHeight) / hoverDiminishDistance), 2);
-        float hoverResponse = hoverResponseAmount * hoverResponceForce;
-        float hoverDiminish = hoverDiminishAmount * g * (1 - idleHoverForceRate);
-
-        return Vector3.up * (hoverResponse + hoverDiminish) * rb.mass;
     }
 
     public Vector3 GetDragForce()
