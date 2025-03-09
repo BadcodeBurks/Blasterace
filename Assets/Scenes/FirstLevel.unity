@@ -27261,6 +27261,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.hoverHeight
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.hoverDiminishDistance
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5782578345788648753, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.69065

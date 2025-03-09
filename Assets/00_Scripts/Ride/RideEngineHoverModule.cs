@@ -1,33 +1,47 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
 public class RideEngineHoverModule
 {
+    public GroundChecker groundChecker;
     [SerializeField] float hoverHeight;
     [SerializeField] float hoverResponseDistence = 0.1f;
     [SerializeField] float hoverResponceForce = 5f;
     [SerializeField] float hoverDiminishDistance = 0.2f;
     [SerializeField][Range(0, 1)] float idleHoverForceRate = 0.3f;
     [SerializeField][Range(1, 5)] float hoverDragRate = 0.3f;
+
+    public Action<float> OnTargetPitch;
+
     private Rigidbody _rb;
-    private int _groundLayerMask;
-    public void Init(Rigidbody rb, int groundLayer)
+    private Transform _checkTransform;
+
+    public float TotalOnGroundDistance => hoverHeight + hoverDiminishDistance;
+
+    public void Init(Rigidbody rb, Transform checkTransform)
     {
         _rb = rb;
-        _groundLayerMask = groundLayer;
+        _checkTransform = checkTransform;
+        groundChecker.Init();
+    }
+
+    private void DoRayChecks()
+    {
+        groundChecker.Check(_rb.position, _checkTransform.forward);
+        Debug.Log(OnTargetPitch);
+        OnTargetPitch?.Invoke(groundChecker.Angles.y);
     }
 
     public void ApplyHover()
     {
+        DoRayChecks();
         Vector3 defaultHoverForce = -Physics.gravity.y * _rb.mass * idleHoverForceRate * Vector3.up;
         Vector3 hoverForce = defaultHoverForce;
-        RaycastHit groundRay = new RaycastHit();
-        if (Physics.Raycast(_rb.position, Vector3.down, out groundRay, hoverHeight + hoverDiminishDistance, _groundLayerMask))
+        if (groundChecker.AvgDist < hoverHeight + hoverDiminishDistance && groundChecker.Angles.magnitude < .5f)
         {
-            hoverForce += CalculateHoverForce(groundRay.distance);
+            hoverForce += CalculateHoverForce(groundChecker.AvgDist);
         }
         _rb.AddForce(hoverForce, ForceMode.Force);
     }
@@ -50,5 +64,8 @@ public class RideEngineHoverModule
         return new Vector3(0, -speedEnergy, 0) * hoverDragRate / Mathf.Max(Mathf.Clamp01(desiredDistance / hoverDiminishDistance), 0.1f);
     }
 
-
+    public void OnDrawGizmos()
+    {
+        groundChecker.OnDrawGizmos();
+    }
 }

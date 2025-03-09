@@ -1,7 +1,5 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class RideEngine : MonoBehaviour
@@ -14,9 +12,11 @@ public class RideEngine : MonoBehaviour
     [Header("Dependencies")]
     [SerializeField] Rigidbody rb;
     [SerializeField] Transform rideTransform;
+    [SerializeField] RideController controller;
     private EngineState state = EngineState.Idle;
     [Header("Settings")]
     [SerializeField] RideEngineHoverModule hoverModule;
+    public RideEngineHoverModule HoverModule => hoverModule;
     [SerializeField] float maxSpeed;
     [Header("Acceleration")]
     [SerializeField] float maxAcceleration;
@@ -28,16 +28,16 @@ public class RideEngine : MonoBehaviour
     private Vector2 _inputVector = Vector2.zero;
     private float _maxSpeedForwardEnergy = 0;
     public Action<float, float> OnSteerChanged;
+    private bool _onAir;
+    public Action<bool> OnAirStatusChanged;
 
-    private int _groundLayerMask;
 
     void Awake()
     {
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
         _inputVector = Vector2.zero;
         _maxSpeedForwardEnergy = maxSpeed * maxSpeed * rb.mass / 2;
-        _groundLayerMask = LayerMask.GetMask("Default");
-        hoverModule.Init(rb, _groundLayerMask);
+        hoverModule.Init(rb, controller.GetCheckTransforms()[1]);
     }
 
     void FixedUpdate()
@@ -45,6 +45,14 @@ public class RideEngine : MonoBehaviour
         if (state == EngineState.Moving) Move();
         else if (state == EngineState.Idle) Idle();
         hoverModule.ApplyHover();
+        HandleAirStatus();
+    }
+
+    void HandleAirStatus()
+    {
+        bool t = _onAir;
+        _onAir = hoverModule.groundChecker.AvgDist > hoverModule.TotalOnGroundDistance;
+        if (t != _onAir) OnAirStatusChanged?.Invoke(_onAir);
     }
 
     void Move()
@@ -115,6 +123,7 @@ public class RideEngine : MonoBehaviour
             Gizmos.DrawLine(transform.position, transform.position + debugDragForce);
             Gizmos.color = Color.magenta;
             Gizmos.DrawLine(transform.position, transform.position + debugHoverForce / rb.mass);
+            hoverModule.OnDrawGizmos();
         }
     }
 
