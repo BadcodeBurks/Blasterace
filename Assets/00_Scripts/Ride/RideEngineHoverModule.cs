@@ -30,7 +30,6 @@ public class RideEngineHoverModule
     private void DoRayChecks()
     {
         groundChecker.Check(_rb.position, _checkTransform.forward);
-        Debug.Log(OnTargetPitch);
         OnTargetPitch?.Invoke(groundChecker.Angles.y);
     }
 
