@@ -34,10 +34,10 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
+  m_ReflectionBounces: 3
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 2007698846}
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c46b055e0b7cfee40bf438adb1576ce0, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 560b00aeac4c3934889a7790a0dc3f35, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -215,6 +215,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (94)
@@ -322,6 +326,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -431,6 +439,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (22)
@@ -538,6 +550,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -647,6 +663,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
       propertyPath: m_Name
       value: ground_pathBend (2)
@@ -755,6 +775,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
       value: stone_tallB (1)
@@ -830,6 +854,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -939,6 +967,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (18)
@@ -1047,6 +1079,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
       value: stone_tallB (7)
@@ -1122,6 +1158,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -1231,6 +1271,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (35)
@@ -1338,6 +1382,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -1447,6 +1495,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (36)
@@ -1495,6 +1547,348 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6747873089655211445, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+--- !u!1 &111733947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 111733948}
+  - component: {fileID: 111733949}
+  m_Layer: 0
+  m_Name: Light Probe Group (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &111733948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111733947}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -50.71, y: -4.16, z: -42.68}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504321955}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!220 &111733949
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111733947}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 5, y: 5, z: 7}
+  - {x: 5, y: 3, z: 7}
+  - {x: 3, y: 5, z: 9}
+  - {x: 3, y: 5, z: 7}
+  - {x: 3, y: 3, z: 9}
+  - {x: 3, y: 3, z: 7}
+  - {x: 7, y: 5, z: 7}
+  - {x: 7, y: 3, z: 7}
+  - {x: 5, y: 1, z: 7}
+  - {x: 5, y: -1, z: 7}
+  - {x: 3, y: 1, z: 9}
+  - {x: 3, y: 1, z: 7}
+  - {x: 3, y: -1, z: 9}
+  - {x: 3, y: -1, z: 7}
+  - {x: 7, y: 1, z: 7}
+  - {x: 7, y: -1, z: 7}
+  - {x: 5, y: 5, z: 5}
+  - {x: 5, y: 5, z: 3}
+  - {x: 5, y: 3, z: 5}
+  - {x: 5, y: 3, z: 3}
+  - {x: 3, y: 5, z: 5}
+  - {x: 3, y: 5, z: 3}
+  - {x: 3, y: 3, z: 5}
+  - {x: 3, y: 3, z: 3}
+  - {x: 7, y: 5, z: 3}
+  - {x: 7, y: 5, z: 5}
+  - {x: 7, y: 3, z: 5}
+  - {x: 8.999997, y: 3, z: 5}
+  - {x: 8.999997, y: 3, z: 3}
+  - {x: 8.999997, y: 5, z: 3}
+  - {x: 8.999997, y: 5, z: 5}
+  - {x: 7, y: 3, z: 3}
+  - {x: 5, y: 5, z: -7}
+  - {x: 5, y: 5, z: -9.000002}
+  - {x: 5, y: 3, z: -7}
+  - {x: 5, y: 3, z: -9.000002}
+  - {x: 3, y: 5, z: -7}
+  - {x: 3, y: 5, z: -9.000002}
+  - {x: 3, y: 3, z: -7}
+  - {x: 3, y: 3, z: -9.000002}
+  - {x: 7, y: 5, z: -9.000002}
+  - {x: 7, y: 5, z: -7}
+  - {x: 7, y: 3, z: -7}
+  - {x: 8.999997, y: 3, z: -7}
+  - {x: 8.999997, y: 3, z: -9.000002}
+  - {x: 8.999997, y: 5, z: -9.000002}
+  - {x: 8.999997, y: 5, z: -7}
+  - {x: 7, y: 3, z: -9.000002}
+  - {x: 5, y: 1, z: 5}
+  - {x: 5, y: 1, z: 3}
+  - {x: 5, y: -1, z: 5}
+  - {x: 5, y: -1, z: 3}
+  - {x: 3, y: 1, z: 5}
+  - {x: 3, y: 1, z: 3}
+  - {x: 3, y: -1, z: 5}
+  - {x: 3, y: -1, z: 3}
+  - {x: 7, y: 1, z: 3}
+  - {x: 7, y: 1, z: 5}
+  - {x: 7, y: -1, z: 5}
+  - {x: 8.999997, y: -1, z: 5}
+  - {x: 8.999997, y: -1, z: 3}
+  - {x: 8.999997, y: 1, z: 3}
+  - {x: 8.999997, y: 1, z: 5}
+  - {x: 7, y: -1, z: 3}
+  - {x: 5, y: 1, z: -7}
+  - {x: 5, y: 1, z: -9.000002}
+  - {x: 5, y: -1, z: -7}
+  - {x: 5, y: -1, z: -9.000002}
+  - {x: 3, y: 1, z: -7}
+  - {x: 3, y: 1, z: -9.000002}
+  - {x: 3, y: -1, z: -7}
+  - {x: 3, y: -1, z: -9.000002}
+  - {x: 7, y: 1, z: -9.000002}
+  - {x: 7, y: 1, z: -7}
+  - {x: 7, y: -1, z: -7}
+  - {x: 8.999997, y: -1, z: -7}
+  - {x: 8.999997, y: -1, z: -9.000002}
+  - {x: 8.999997, y: 1, z: -9.000002}
+  - {x: 8.999997, y: 1, z: -7}
+  - {x: 7, y: -1, z: -9.000002}
+  - {x: 5, y: 5, z: 1}
+  - {x: 5, y: 5, z: -1}
+  - {x: 5, y: 3, z: 1}
+  - {x: 5, y: 3, z: -1}
+  - {x: 3, y: 5, z: 1}
+  - {x: 3, y: 5, z: -1}
+  - {x: 3, y: 3, z: 1}
+  - {x: 3, y: 3, z: -1}
+  - {x: 7, y: 5, z: -1}
+  - {x: 7, y: 5, z: 1}
+  - {x: 7, y: 3, z: 1}
+  - {x: 8.999997, y: 3, z: 1}
+  - {x: 8.999997, y: 3, z: -1}
+  - {x: 8.999997, y: 5, z: -1}
+  - {x: 8.999997, y: 5, z: 1}
+  - {x: 7, y: 3, z: -1}
+  - {x: 5, y: 1, z: 1}
+  - {x: 5, y: 1, z: -1}
+  - {x: 5, y: -1, z: 1}
+  - {x: 5, y: -1, z: -1}
+  - {x: 3, y: 1, z: 1}
+  - {x: 3, y: 1, z: -1}
+  - {x: 3, y: -1, z: 1}
+  - {x: 3, y: -1, z: -1}
+  - {x: 7, y: 1, z: -1}
+  - {x: 7, y: 1, z: 1}
+  - {x: 7, y: -1, z: 1}
+  - {x: 8.999997, y: -1, z: 1}
+  - {x: 8.999997, y: -1, z: -1}
+  - {x: 8.999997, y: 1, z: -1}
+  - {x: 8.999997, y: 1, z: 1}
+  - {x: 7, y: -1, z: -1}
+  - {x: 5, y: 5, z: -3}
+  - {x: 5, y: 5, z: -5.000002}
+  - {x: 5, y: 3, z: -3}
+  - {x: 5, y: 3, z: -5.000002}
+  - {x: 3, y: 5, z: -3}
+  - {x: 3, y: 5, z: -5.000002}
+  - {x: 3, y: 3, z: -3}
+  - {x: 3, y: 3, z: -5.000002}
+  - {x: 7, y: 5, z: -5.000002}
+  - {x: 7, y: 5, z: -3}
+  - {x: 7, y: 3, z: -3}
+  - {x: 8.999997, y: 3, z: -3}
+  - {x: 8.999997, y: 3, z: -5.000002}
+  - {x: 8.999997, y: 5, z: -5.000002}
+  - {x: 8.999997, y: 5, z: -3}
+  - {x: 7, y: 3, z: -5.000002}
+  - {x: 5, y: 1, z: -3}
+  - {x: 5, y: 1, z: -5.000002}
+  - {x: 5, y: -1, z: -3}
+  - {x: 5, y: -1, z: -5.000002}
+  - {x: 3, y: 1, z: -3}
+  - {x: 3, y: 1, z: -5.000002}
+  - {x: 7, y: 1, z: -5.000002}
+  - {x: 7, y: 1, z: -3}
+  - {x: 7, y: -1, z: -3}
+  - {x: 8.999997, y: -1, z: -3}
+  - {x: 8.999997, y: -1, z: -5.000002}
+  - {x: 8.999997, y: 1, z: -5.000002}
+  - {x: 8.999997, y: 1, z: -3}
+  - {x: 7, y: -1, z: -5.000002}
+  - {x: -3, y: 5, z: 9}
+  - {x: -3, y: 5, z: 7}
+  - {x: -3, y: 3, z: 9}
+  - {x: -3, y: 3, z: 7}
+  - {x: -5, y: 5, z: 9}
+  - {x: -5, y: 5, z: 7}
+  - {x: -5, y: 3, z: 9}
+  - {x: -5, y: 3, z: 7}
+  - {x: -1, y: 5, z: 7}
+  - {x: -1, y: 5, z: 9}
+  - {x: -1, y: 3, z: 9}
+  - {x: 1, y: 3, z: 9}
+  - {x: 1, y: 3, z: 7}
+  - {x: 1, y: 5, z: 7}
+  - {x: 1, y: 5, z: 9}
+  - {x: -1, y: 3, z: 7}
+  - {x: -3, y: 1, z: 9}
+  - {x: -3, y: 1, z: 7}
+  - {x: -3, y: -1, z: 9}
+  - {x: -3, y: -1, z: 7}
+  - {x: -5, y: 1, z: 9}
+  - {x: -5, y: 1, z: 7}
+  - {x: -5, y: -1, z: 9}
+  - {x: -5, y: -1, z: 7}
+  - {x: -1, y: 1, z: 7}
+  - {x: -1, y: 1, z: 9}
+  - {x: -1, y: -1, z: 9}
+  - {x: 1, y: -1, z: 9}
+  - {x: 1, y: -1, z: 7}
+  - {x: 1, y: 1, z: 7}
+  - {x: 1, y: 1, z: 9}
+  - {x: -1, y: -1, z: 7}
+  - {x: -3, y: 5, z: 5}
+  - {x: -3, y: 5, z: 3}
+  - {x: -3, y: 3, z: 5}
+  - {x: -3, y: 3, z: 3}
+  - {x: -5, y: 5, z: 5}
+  - {x: -5, y: 5, z: 3}
+  - {x: -5, y: 3, z: 5}
+  - {x: -5, y: 3, z: 3}
+  - {x: -1, y: 5, z: 3}
+  - {x: -1, y: 5, z: 5}
+  - {x: -1, y: 3, z: 5}
+  - {x: 1, y: 3, z: 5}
+  - {x: 1, y: 3, z: 3}
+  - {x: 1, y: 5, z: 3}
+  - {x: 1, y: 5, z: 5}
+  - {x: -1, y: 3, z: 3}
+  - {x: -3, y: 5, z: -7}
+  - {x: -3, y: 5, z: -9.000002}
+  - {x: -3, y: 3, z: -7}
+  - {x: -3, y: 3, z: -9.000002}
+  - {x: -5, y: 5, z: -7}
+  - {x: -5, y: 5, z: -9.000002}
+  - {x: -5, y: 3, z: -7}
+  - {x: -5, y: 3, z: -9.000002}
+  - {x: -1, y: 5, z: -9.000002}
+  - {x: -1, y: 5, z: -7}
+  - {x: -1, y: 3, z: -7}
+  - {x: 1, y: 3, z: -7}
+  - {x: 1, y: 3, z: -9.000002}
+  - {x: 1, y: 5, z: -9.000002}
+  - {x: 1, y: 5, z: -7}
+  - {x: -1, y: 3, z: -9.000002}
+  - {x: -3, y: 1, z: 5}
+  - {x: -3, y: 1, z: 3}
+  - {x: -3, y: -1, z: 5}
+  - {x: -3, y: -1, z: 3}
+  - {x: -5, y: 1, z: 5}
+  - {x: -5, y: 1, z: 3}
+  - {x: -5, y: -1, z: 5}
+  - {x: -5, y: -1, z: 3}
+  - {x: -1, y: 1, z: 3}
+  - {x: -1, y: 1, z: 5}
+  - {x: -1, y: -1, z: 5}
+  - {x: 1, y: -1, z: 5}
+  - {x: 1, y: -1, z: 3}
+  - {x: 1, y: 1, z: 3}
+  - {x: 1, y: 1, z: 5}
+  - {x: -1, y: -1, z: 3}
+  - {x: -3, y: 1, z: -7}
+  - {x: -3, y: 1, z: -9.000002}
+  - {x: -3, y: -1, z: -7}
+  - {x: -3, y: -1, z: -9.000002}
+  - {x: -5, y: 1, z: -7}
+  - {x: -5, y: 1, z: -9.000002}
+  - {x: -5, y: -1, z: -7}
+  - {x: -5, y: -1, z: -9.000002}
+  - {x: -1, y: 1, z: -9.000002}
+  - {x: -1, y: 1, z: -7}
+  - {x: -1, y: -1, z: -7}
+  - {x: 1, y: -1, z: -7}
+  - {x: 1, y: -1, z: -9.000002}
+  - {x: 1, y: 1, z: -9.000002}
+  - {x: 1, y: 1, z: -7}
+  - {x: -1, y: -1, z: -9.000002}
+  - {x: -3, y: 5, z: 1}
+  - {x: -3, y: 5, z: -1}
+  - {x: -3, y: 3, z: 1}
+  - {x: -3, y: 3, z: -1}
+  - {x: -5, y: 5, z: 1}
+  - {x: -5, y: 5, z: -1}
+  - {x: -5, y: 3, z: 1}
+  - {x: -5, y: 3, z: -1}
+  - {x: -1, y: 5, z: -1}
+  - {x: -1, y: 5, z: 1}
+  - {x: -1, y: 3, z: 1}
+  - {x: 1, y: 3, z: 1}
+  - {x: 1, y: 3, z: -1}
+  - {x: 1, y: 5, z: -1}
+  - {x: 1, y: 5, z: 1}
+  - {x: -1, y: 3, z: -1}
+  - {x: -3, y: 1, z: 1}
+  - {x: -3, y: 1, z: -1}
+  - {x: -3, y: -1, z: 1}
+  - {x: -3, y: -1, z: -1}
+  - {x: -5, y: 1, z: 1}
+  - {x: -5, y: 1, z: -1}
+  - {x: -5, y: -1, z: 1}
+  - {x: -5, y: -1, z: -1}
+  - {x: -1, y: 1, z: -1}
+  - {x: -1, y: 1, z: 1}
+  - {x: -1, y: -1, z: 1}
+  - {x: 1, y: -1, z: 1}
+  - {x: 1, y: -1, z: -1}
+  - {x: 1, y: 1, z: -1}
+  - {x: 1, y: 1, z: 1}
+  - {x: -1, y: -1, z: -1}
+  - {x: -3, y: 5, z: -3}
+  - {x: -3, y: 5, z: -5.000002}
+  - {x: -3, y: 3, z: -3}
+  - {x: -3, y: 3, z: -5.000002}
+  - {x: -5, y: 5, z: -3}
+  - {x: -5, y: 5, z: -5.000002}
+  - {x: -5, y: 3, z: -3}
+  - {x: -5, y: 3, z: -5.000002}
+  - {x: -1, y: 5, z: -5.000002}
+  - {x: -1, y: 5, z: -3}
+  - {x: -1, y: 3, z: -3}
+  - {x: 1, y: 3, z: -3}
+  - {x: 1, y: 3, z: -5.000002}
+  - {x: 1, y: 5, z: -5.000002}
+  - {x: 1, y: 5, z: -3}
+  - {x: -1, y: 3, z: -5.000002}
+  - {x: -3, y: 1, z: -3}
+  - {x: -3, y: 1, z: -5.000002}
+  - {x: -3, y: -1, z: -3}
+  - {x: -3, y: -1, z: -5.000002}
+  - {x: -5, y: 1, z: -3}
+  - {x: -5, y: 1, z: -5.000002}
+  - {x: -5, y: -1, z: -3}
+  - {x: -5, y: -1, z: -5.000002}
+  - {x: -1, y: 1, z: -5.000002}
+  - {x: -1, y: 1, z: -3}
+  - {x: -1, y: -1, z: -3}
+  - {x: 1, y: 1, z: -5.000002}
+  - {x: 1, y: 1, z: -3}
+  - {x: -1, y: -1, z: -5.000002}
+  m_Dering: 1
 --- !u!1001 &113526230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1554,6 +1948,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -1663,6 +2061,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
       propertyPath: m_Name
       value: bones (4)
@@ -1770,6 +2172,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_Name
@@ -1879,6 +2285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (31)
@@ -1986,6 +2396,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -2095,6 +2509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_Name
       value: stone_tallH
@@ -2170,6 +2588,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 44ba89cc3e0948040b167cd983a389d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 44ba89cc3e0948040b167cd983a389d5, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44ba89cc3e0948040b167cd983a389d5, type: 3}
       propertyPath: m_Name
@@ -2279,6 +2701,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (7)
@@ -2386,6 +2812,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -2500,6 +2930,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (21)
@@ -2607,6 +3041,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -2716,6 +3154,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (26)
@@ -2823,6 +3265,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -2932,6 +3378,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
       propertyPath: m_Name
       value: bones (3)
@@ -3039,6 +3489,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 128a4c88b854aa04ba91e5084615591a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 128a4c88b854aa04ba91e5084615591a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 128a4c88b854aa04ba91e5084615591a, type: 3}
       propertyPath: m_Name
@@ -3148,6 +3602,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 138.834
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 339539c22fe89554d9f4295946a4ebfb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 339539c22fe89554d9f4295946a4ebfb, type: 3}
       propertyPath: m_Name
       value: barrel
@@ -3255,6 +3713,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -3364,6 +3826,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (6)
@@ -3472,6 +3938,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_Name
       value: stone_tallJ (4)
@@ -3552,6 +4022,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -3661,6 +4135,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c277cdc0e7bde7444a4b384eb9b5521a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c277cdc0e7bde7444a4b384eb9b5521a, type: 3}
       propertyPath: m_Name
       value: rocks_smallB
@@ -3768,6 +4246,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_Name
@@ -3887,6 +4369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (50)
@@ -3994,6 +4480,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -4103,6 +4593,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bea1f05922cc2de43a0701f9e3ef5fed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bea1f05922cc2de43a0701f9e3ef5fed, type: 3}
       propertyPath: m_Name
       value: ground_pathCross
@@ -4210,6 +4704,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -4624,6 +5122,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (12)
@@ -4731,6 +5233,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -4840,6 +5346,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_Name
       value: rock_crystalsLargeB (5)
@@ -4948,6 +5458,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
       value: stone_tallB (3)
@@ -5028,6 +5542,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -5137,6 +5655,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (38)
@@ -5244,6 +5766,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_Name
@@ -5353,6 +5879,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (30)
@@ -5460,6 +5990,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 93135d0a857a01649952c606d18cf530, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 93135d0a857a01649952c606d18cf530, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93135d0a857a01649952c606d18cf530, type: 3}
       propertyPath: m_Name
@@ -5569,6 +6103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (44)
@@ -5677,6 +6215,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.591
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
       propertyPath: m_Name
       value: path_wood (4)
@@ -5720,7 +6262,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -5784,6 +6326,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_Name
@@ -5893,6 +6439,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (32)
@@ -6000,6 +6550,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -6109,6 +6663,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d0cd10473a1c78e48b2e9a5aff627a08, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d0cd10473a1c78e48b2e9a5aff627a08, type: 3}
       propertyPath: m_Name
       value: ground_pathStraight
@@ -6216,6 +6774,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -6325,6 +6887,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass
@@ -6432,6 +6998,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_Name
@@ -6541,6 +7111,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (48)
@@ -6648,6 +7222,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bf5a86dd688531d48b6163d2eb9849b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bf5a86dd688531d48b6163d2eb9849b8, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bf5a86dd688531d48b6163d2eb9849b8, type: 3}
       propertyPath: m_Name
@@ -6784,6 +7362,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (8)
@@ -6897,6 +7479,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_Name
       value: stone_tallJ (6)
@@ -6999,6 +7585,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -7108,6 +7698,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (30)
@@ -7215,6 +7809,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_Name
@@ -7324,6 +7922,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (16)
@@ -7431,6 +8033,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -7540,6 +8146,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
       propertyPath: m_Name
       value: cliff_stepsCorner_stone (2)
@@ -7621,6 +8231,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
       value: stone_tallB (5)
@@ -7701,6 +8315,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -7810,6 +8428,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (18)
@@ -7917,6 +8539,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -8026,6 +8652,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (16)
@@ -8134,6 +8764,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
       propertyPath: m_Name
       value: cliff_stepsCorner_stone (3)
@@ -8214,6 +8848,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9327b289248044e43b40dadb20e4713e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9327b289248044e43b40dadb20e4713e, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9327b289248044e43b40dadb20e4713e, type: 3}
       propertyPath: m_Name
@@ -8323,6 +8961,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (105)
@@ -8431,6 +9073,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (23)
@@ -8538,6 +9184,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
@@ -8652,6 +9302,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (40)
@@ -8759,6 +9413,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -8868,6 +9526,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (21)
@@ -8975,6 +9637,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -9084,6 +9750,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
       propertyPath: m_Name
       value: path_wood (1)
@@ -9161,6 +9831,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_Name
@@ -9242,6 +9916,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e8b3b403939ab1c48a2a65e96af42996, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b3b403939ab1c48a2a65e96af42996, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b3b403939ab1c48a2a65e96af42996, type: 3}
       propertyPath: m_Name
@@ -9351,6 +10029,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (5)
@@ -9458,6 +10140,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -9567,6 +10253,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (62)
@@ -9674,6 +10364,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -9783,6 +10477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (87)
@@ -9890,6 +10588,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a718872cb52bcdc45b9625274d039a2d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a718872cb52bcdc45b9625274d039a2d, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -6920690623926577443, guid: a718872cb52bcdc45b9625274d039a2d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10003,6 +10705,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (55)
@@ -10110,6 +10816,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -10219,6 +10929,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
       value: stone_tallB
@@ -10295,6 +11009,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.83
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92c5253918caa014caf4777517345330, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92c5253918caa014caf4777517345330, type: 3}
       propertyPath: m_Name
       value: fence_simpleLow (2)
@@ -10338,7 +11056,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -10402,6 +11120,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -10511,6 +11233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_Name
       value: meteor_detailed (2)
@@ -10619,6 +11345,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_Name
       value: stone_tallH (1)
@@ -10694,6 +11424,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -10803,6 +11537,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92c5253918caa014caf4777517345330, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92c5253918caa014caf4777517345330, type: 3}
       propertyPath: m_Name
       value: fence_simpleLow
@@ -10910,6 +11648,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -11019,6 +11761,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (2)
@@ -11126,6 +11872,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -11235,6 +11985,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_Name
       value: rock_crystalsLargeB (1)
@@ -11342,6 +12096,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -11451,6 +12209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (75)
@@ -11558,6 +12320,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -11667,6 +12433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 88.197
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 339539c22fe89554d9f4295946a4ebfb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 339539c22fe89554d9f4295946a4ebfb, type: 3}
       propertyPath: m_Name
       value: barrel (1)
@@ -11774,6 +12544,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_Name
@@ -11883,6 +12657,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (42)
@@ -11990,6 +12768,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_Name
@@ -12099,6 +12881,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
       propertyPath: m_Name
       value: cliff_stepsCorner_stone (1)
@@ -12179,6 +12965,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -12287,6 +13077,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c436173616bcb3409c87d8e4528adda, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -33.805
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c436173616bcb3409c87d8e4528adda, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c436173616bcb3409c87d8e4528adda, type: 3}
       propertyPath: m_Name
@@ -12423,6 +13217,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (11)
@@ -12531,6 +13329,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
       propertyPath: m_Name
       value: cliff_stepsCorner_stone (4)
@@ -12611,6 +13413,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -12720,6 +13526,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (61)
@@ -12827,6 +13637,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -12936,6 +13750,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (15)
@@ -13044,6 +13862,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b6dd6c69f7e1344991557a163dc0110, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5b6dd6c69f7e1344991557a163dc0110, type: 3}
       propertyPath: m_Name
       value: ground_pathEnd (2)
@@ -13151,6 +13973,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -13265,6 +14091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (3)
@@ -13372,6 +14202,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -13481,6 +14315,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (9)
@@ -13589,6 +14427,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
       value: stone_tallB
@@ -13691,6 +14533,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -13800,6 +14646,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (17)
@@ -13907,6 +14757,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -14016,6 +14870,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (22)
@@ -14123,6 +14981,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -14232,6 +15094,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (23)
@@ -14340,6 +15206,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (4)
@@ -14447,6 +15317,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 73b15b7e49c5dc1468bd0c6b107bff0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 73b15b7e49c5dc1468bd0c6b107bff0c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 570127074719945593, guid: 73b15b7e49c5dc1468bd0c6b107bff0c, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14560,6 +15434,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (12)
@@ -14667,6 +15545,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -14776,6 +15658,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone
@@ -14883,6 +15769,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_Name
@@ -15089,6 +15979,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (97)
@@ -15196,6 +16090,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -15337,6 +16235,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.83
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92c5253918caa014caf4777517345330, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92c5253918caa014caf4777517345330, type: 3}
       propertyPath: m_Name
       value: fence_simpleLow (1)
@@ -15352,6 +16254,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92c5253918caa014caf4777517345330, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1124333693}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92c5253918caa014caf4777517345330, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1124333696}
   m_SourcePrefab: {fileID: 100100000, guid: 92c5253918caa014caf4777517345330, type: 3}
 --- !u!4 &1124333691 stripped
 Transform:
@@ -15380,11 +16285,32 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8783912406849517240, guid: 92c5253918caa014caf4777517345330, type: 3}
+--- !u!65 &1124333696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124333692}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0709516, y: 0.036166474, z: 0.41675615}
+  m_Center: {x: -0.025127139, y: 0.18019521, z: 0.2997996}
 --- !u!1001 &1137465996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15444,6 +16370,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -15553,6 +16483,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (71)
@@ -15660,6 +16594,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c3018cf1166d6884fa540b937369438e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c3018cf1166d6884fa540b937369438e, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c3018cf1166d6884fa540b937369438e, type: 3}
       propertyPath: m_Name
@@ -15769,6 +16707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (1)
@@ -15876,6 +16818,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -16012,6 +16958,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (54)
@@ -16119,6 +17069,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -16228,6 +17182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (47)
@@ -16335,6 +17293,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -16444,6 +17406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
       propertyPath: m_Name
       value: path_wood (2)
@@ -16521,6 +17487,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
       propertyPath: m_Name
@@ -16629,6 +17599,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -16924,6 +17898,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_Name
       value: stone_tallH (2)
@@ -16999,6 +17977,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -17108,6 +18090,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (73)
@@ -17216,6 +18202,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (66)
@@ -17323,6 +18313,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -17464,6 +18458,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (64)
@@ -17571,6 +18569,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5b6dd6c69f7e1344991557a163dc0110, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b6dd6c69f7e1344991557a163dc0110, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5b6dd6c69f7e1344991557a163dc0110, type: 3}
       propertyPath: m_Name
@@ -17712,6 +18714,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 46551e0a488aff24f9a67c0ac86749df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 46551e0a488aff24f9a67c0ac86749df, type: 3}
       propertyPath: m_Name
       value: rocks_smallA (1)
@@ -17819,6 +18825,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -17928,6 +18938,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (68)
@@ -18035,6 +19049,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -18144,6 +19162,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (37)
@@ -18251,6 +19273,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
       propertyPath: m_Name
@@ -18360,6 +19386,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (4)
@@ -18467,6 +19497,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -18576,6 +19610,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
       propertyPath: m_Name
       value: ground_pathBend (3)
@@ -18683,6 +19721,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -18792,6 +19834,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (37)
@@ -18899,6 +19945,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -19008,6 +20058,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (6)
@@ -19115,6 +20169,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -19224,6 +20282,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (6)
@@ -19331,6 +20393,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -19440,6 +20506,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_Name
       value: rock_crystalsLargeB (3)
@@ -19548,6 +20618,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_Name
       value: stone_tallH (5)
@@ -19623,6 +20697,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -19732,6 +20810,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -10.22
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 51542713c2e1eba4d984f0c149d6355c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 51542713c2e1eba4d984f0c149d6355c, type: 3}
       propertyPath: m_Name
       value: craft_speederC
@@ -19839,6 +20921,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 46551e0a488aff24f9a67c0ac86749df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 46551e0a488aff24f9a67c0ac86749df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 46551e0a488aff24f9a67c0ac86749df, type: 3}
       propertyPath: m_Name
@@ -19948,6 +21034,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a04ebce94527500479cad9a486243978, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a04ebce94527500479cad9a486243978, type: 3}
       propertyPath: m_Name
       value: statue_head
@@ -20050,6 +21140,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -20158,6 +21252,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: dc5f7e0a30e49ca49b91e788799f7bdd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dc5f7e0a30e49ca49b91e788799f7bdd, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -6920690623926577443, guid: dc5f7e0a30e49ca49b91e788799f7bdd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20271,6 +21369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (23)
@@ -20378,6 +21480,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
       propertyPath: m_Name
@@ -20514,6 +21620,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (82)
@@ -20622,6 +21732,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (67)
@@ -20670,6 +21784,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6747873089655211445, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+--- !u!1 &1504321954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504321955}
+  m_Layer: 0
+  m_Name: LightProbes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504321955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504321954}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25, y: 50, z: 50}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 111733948}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1516313494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20729,6 +21875,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 93135d0a857a01649952c606d18cf530, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 93135d0a857a01649952c606d18cf530, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 93135d0a857a01649952c606d18cf530, type: 3}
       propertyPath: m_Name
@@ -20892,6 +22042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (15)
@@ -20999,6 +22153,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_Name
@@ -21108,6 +22266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (76)
@@ -21215,6 +22377,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_Name
@@ -21324,6 +22490,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_Name
       value: stone_tallJ
@@ -21399,6 +22569,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1f4e7c75196af4a43aebda9c5070b394, type: 3}
       propertyPath: m_Name
@@ -21480,6 +22654,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -21588,6 +22766,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 73b15b7e49c5dc1468bd0c6b107bff0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 73b15b7e49c5dc1468bd0c6b107bff0c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 570127074719945593, guid: 73b15b7e49c5dc1468bd0c6b107bff0c, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21701,6 +22883,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (78)
@@ -21808,6 +22994,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3a5b8f5db72373f4a9b92b8264907669, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3a5b8f5db72373f4a9b92b8264907669, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3a5b8f5db72373f4a9b92b8264907669, type: 3}
       propertyPath: m_Name
@@ -21917,6 +23107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (3)
@@ -22024,6 +23218,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -22133,6 +23331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (90)
@@ -22240,6 +23442,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -22349,6 +23555,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_Name
       value: stone_tallH (3)
@@ -22424,6 +23634,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_Name
@@ -22533,6 +23747,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_Name
       value: stone_tallJ (2)
@@ -22635,6 +23853,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -22744,6 +23966,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8a75d1d680f604547ba573f98504897d, type: 3}
       propertyPath: m_Name
       value: cliff_stepsCorner_stone
@@ -22824,6 +24050,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3a5b8f5db72373f4a9b92b8264907669, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3a5b8f5db72373f4a9b92b8264907669, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3a5b8f5db72373f4a9b92b8264907669, type: 3}
       propertyPath: m_Name
@@ -22933,6 +24163,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b4c5f14c994e5c149babbae947287bdf, type: 3}
       propertyPath: m_Name
       value: tree_detailed_dark
@@ -23041,6 +24275,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 54.544
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a04ebce94527500479cad9a486243978, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a04ebce94527500479cad9a486243978, type: 3}
       propertyPath: m_Name
       value: statue_head
@@ -23148,6 +24386,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_Name
@@ -23289,6 +24531,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (20)
@@ -23396,6 +24642,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_Name
@@ -23505,6 +24755,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (5)
@@ -23612,6 +24866,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -23721,6 +24979,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_Name
       value: meteor_detailed (4)
@@ -23828,6 +25090,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -23937,6 +25203,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_Name
       value: tree_oak_dark (6)
@@ -24045,6 +25315,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f6a23d12b466004abbae4468b8962ae, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5f6a23d12b466004abbae4468b8962ae, type: 3}
       propertyPath: m_Name
       value: cliff_blockSlope_stone
@@ -24121,6 +25395,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.591
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
       propertyPath: m_Name
       value: path_wood (5)
@@ -24164,7 +25442,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -24228,6 +25506,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -24337,6 +25619,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4b8ae57f776285c418307423c6438fff, type: 3}
       propertyPath: m_Name
       value: bones (1)
@@ -24444,6 +25730,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_Name
@@ -24625,6 +25915,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (31)
@@ -24760,6 +26054,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (58)
@@ -24868,6 +26166,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (103)
@@ -24975,6 +26277,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -25111,6 +26417,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_Name
       value: rock_crystalsLargeB (2)
@@ -25218,6 +26528,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -25354,6 +26668,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
       value: cliff_topDiagonal_stone (9)
@@ -25462,6 +26780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (41)
@@ -25510,6 +26832,34 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6747873089655211445, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+--- !u!1 &1808208065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 875349967530079338, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+  m_PrefabInstance: {fileID: 1938765536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1808208067
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808208065}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Height: 0.5
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1818261573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25569,6 +26919,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -25678,6 +27032,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (101)
@@ -25785,6 +27143,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b42934868cd2224aa3fa68be6b179df, type: 3}
       propertyPath: m_Name
@@ -25921,6 +27283,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0e59bd468bca8147b88eb3f7dafb5c1, type: 3}
       propertyPath: m_Name
       value: meteor_detailed (6)
@@ -26029,6 +27395,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f6a23d12b466004abbae4468b8962ae, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5f6a23d12b466004abbae4468b8962ae, type: 3}
       propertyPath: m_Name
       value: cliff_blockSlope_stone (1)
@@ -26104,6 +27474,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -26213,6 +27587,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (7)
@@ -26320,6 +27698,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -26429,6 +27811,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (60)
@@ -26536,6 +27922,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -26645,6 +28035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (91)
@@ -26752,6 +28146,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -26861,6 +28259,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (86)
@@ -26968,6 +28370,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -27141,6 +28547,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (27)
@@ -27202,24 +28612,188 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
-      propertyPath: hoverModule.hoverHeight
-      value: 0.2
+      propertyPath: maxTurnSpeed
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
-      propertyPath: hoverModule.hoverDiminishDistance
+      propertyPath: inputSteerSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: maxAcceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: steerCancelForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: idleMaxDeceleration
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardAmount
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.hoverDragRate
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.idleHoverForceRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.groundChecker.spacing.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.groundChecker.spacing.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.groundChecker.dimensions.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: hoverModule.groundChecker.dimensions.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[0].time
+      value: -0.0005038044
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[1].time
       value: 0.1
       objectReference: {fileID: 0}
-    - target: {fileID: 5782578345788648753, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.69065
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[2].time
+      value: 0.9956313
       objectReference: {fileID: 0}
-    - target: {fileID: 5782578345788648753, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.69065
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[0].value
+      value: 0.5011749
       objectReference: {fileID: 0}
-    - target: {fileID: 5782578345788648753, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.69065
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[1].value
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[1].time
+      value: 0.2242932
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[0].inSlope
+      value: 4.0564013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[1].inSlope
+      value: 1.877487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[2].inSlope
+      value: -2.0849288
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[0].outSlope
+      value: 4.0564013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[1].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[1].outSlope
+      value: 1.877487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[2].inWeight
+      value: 0.1007658
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[2].outSlope
+      value: -2.0849288
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[0].outWeight
+      value: 0.24934377
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: speedAccelerationFactor.m_Curve.Array.data[1].outWeight
+      value: 0.055665966
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[0].inSlope
+      value: -8.336331
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[1].inSlope
+      value: -0.019397669
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[0].outSlope
+      value: -8.336331
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[1].outSlope
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[0].outWeight
+      value: 0.08422051
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[1].outWeight
+      value: 0.1093582
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[1].tangentMode
+      value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407475686283065349, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: cancelForceForwardingCurve.m_Curve.Array.data[2].tangentMode
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070614978333804381, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5782578345788648753, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27261,10 +28835,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6616424426991408002, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 875349967530079338, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808208067}
   m_SourcePrefab: {fileID: 100100000, guid: f9638cbbb5974d24a8c686896f3cb348, type: 3}
 --- !u!4 &1938765537 stripped
 Transform:
@@ -27330,6 +28911,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -27439,6 +29024,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b6dd6c69f7e1344991557a163dc0110, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5b6dd6c69f7e1344991557a163dc0110, type: 3}
       propertyPath: m_Name
       value: ground_pathEnd (1)
@@ -27546,6 +29135,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -27655,6 +29248,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (46)
@@ -27762,6 +29359,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -27898,6 +29499,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (80)
@@ -28006,6 +29611,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbc784e1bc51a4048899c0d9fa1e473b, type: 3}
       propertyPath: m_Name
       value: stone_tallH (4)
@@ -28081,6 +29690,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -28190,6 +29803,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.591
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
       propertyPath: m_Name
       value: path_wood (3)
@@ -28233,7 +29850,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -28297,6 +29914,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -28374,7 +29995,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9811321, g: 0.39831352, b: 0.28230685, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -28417,7 +30038,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 1.2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -28499,6 +30120,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -28608,6 +30233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (27)
@@ -28715,6 +30344,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
@@ -28824,6 +30457,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b0992d8971b804f8b58d4c851ff83c, type: 3}
       propertyPath: m_Name
       value: ground_grass (2)
@@ -28931,6 +30568,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -29040,6 +30681,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9fb19db61fcb3594e80b8ace219128eb, type: 3}
       propertyPath: m_Name
       value: path_wood
@@ -29117,6 +30762,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06302409451a16e4d84373a86cfc5f1c, type: 3}
       propertyPath: m_Name
@@ -29225,6 +30874,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
@@ -29366,6 +31019,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (98)
@@ -29473,6 +31130,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 92df77ae17e2f054ba90f621fb0a0a3a, type: 3}
       propertyPath: m_Name
@@ -29582,6 +31243,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (39)
@@ -29690,6 +31355,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (14)
@@ -29797,6 +31466,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 247c6b15bfce45947b0a6cbe8043da11, type: 3}
       propertyPath: m_Name
@@ -29938,6 +31611,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a718872cb52bcdc45b9625274d039a2d, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -6920690623926577443, guid: a718872cb52bcdc45b9625274d039a2d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -30050,6 +31727,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (11)
@@ -30157,6 +31838,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 45aec5e121499544eb3ee24bfba3b8c2, type: 3}
       propertyPath: m_Name
@@ -30266,6 +31951,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (69)
@@ -30374,6 +32063,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 22cb1683f1d30524fac78413cdf101ed, type: 3}
       propertyPath: m_Name
       value: cactus_short (53)
@@ -30427,6 +32120,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2007698847}
+  - {fileID: 1504321955}
   - {fileID: 297390857}
   - {fileID: 1938765536}
   - {fileID: 1734583015}

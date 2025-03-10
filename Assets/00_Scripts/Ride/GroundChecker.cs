@@ -74,7 +74,7 @@ public class GroundChecker
         }
         else
         {
-            distanceResults[writeIndex] = maxDistance;
+            distanceResults[writeIndex] = maxDistance * .6f;
         }
     }
 

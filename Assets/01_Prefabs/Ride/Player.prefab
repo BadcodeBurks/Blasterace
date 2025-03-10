@@ -41,6 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1678918551143069905}
+  - component: {fileID: 5755479466022694214}
   m_Layer: 6
   m_Name: pitchParent
   m_TagString: Untagged
@@ -64,6 +65,29 @@ Transform:
   - {fileID: 7588763639580097721}
   m_Father: {fileID: 3739867465211866888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &5755479466022694214
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875349967530079338}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Height: 0.5
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1532198357808775133
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +148,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4981181850840154857}
@@ -162,21 +186,113 @@ MonoBehaviour:
   controller: {fileID: 6114692509077101427}
   hoverModule:
     groundChecker:
-      dimensions: {x: 3, y: 3}
-      spacing: {x: 0.2, y: 0.2}
+      dimensions: {x: 5, y: 5}
+      spacing: {x: 0.02, y: 0.06}
       maxDistance: 1
     hoverHeight: 0.2
     hoverResponseDistence: 0.1
     hoverResponceForce: 5
     hoverDiminishDistance: 0.1
-    idleHoverForceRate: 0.3
-    hoverDragRate: 1.1
+    idleHoverForceRate: 0.5
+    hoverDragRate: 1.05
   maxSpeed: 20
-  maxAcceleration: 5
+  maxAcceleration: 10
   maxDeceleration: 5
-  idleMaxDeceleration: 1
-  maxTurnSpeed: 120
-  inputSteerSpeed: 30
+  idleMaxDeceleration: 1.2
+  speedAccelerationFactor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0005038044
+      value: 0.5011749
+      inSlope: 4.0564013
+      outSlope: 4.0564013
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.24934377
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.8
+      inSlope: 1.877487
+      outSlope: 1.877487
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.055665966
+    - serializedVersion: 3
+      time: 0.9956313
+      value: 0
+      inSlope: -2.0849288
+      outSlope: -2.0849288
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1007658
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxTurnSpeed: 300
+  inputSteerSpeed: 10
+  steerCancellingForceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -1.0934987
+      outSlope: -1.0934987
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.1152474
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: -0.21417019
+      outSlope: -0.21417019
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.074882984
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  steerCancelForce: 1
+  cancelForceForwardingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0025853235
+      value: 0.99999136
+      inSlope: -8.336331
+      outSlope: -8.336331
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.08422051
+    - serializedVersion: 3
+      time: 0.2242932
+      value: 0
+      inSlope: -0.019397669
+      outSlope: Infinity
+      tangentMode: 97
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.1093582
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  cancelForceForwardAmount: 1.5
 --- !u!54 &908489403194203723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -437,7 +553,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.1
   m_Height: 0.5

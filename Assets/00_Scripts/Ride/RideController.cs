@@ -17,7 +17,7 @@ public class RideController : MonoBehaviour
     }
     void Update()
     {
-        engine.SetInputVector(new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")));
+        engine.SetInputVector(new Vector2(Input.GetAxis("Horizontal"), (Input.GetAxis("Fire1") - Input.GetAxis("Fire2")) / 2f));
     }
 
     public List<Transform> GetCheckTransforms() => rollHandler.groundCheckTransforms;
